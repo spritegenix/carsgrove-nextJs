@@ -172,9 +172,9 @@ export default function Header2({
               <div className="header-nav">
                 <nav className="nav-main-menu">
                   <ul className="main-menu">
-                    <li className="has-children">
-                      <Link href="#">Home</Link>
-                      <ul className="sub-menu">
+                    <li>
+                      <Link href="/">Home</Link>
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link href="/">Home page v1</Link>
                         </li>
@@ -184,7 +184,7 @@ export default function Header2({
                         <li>
                           <Link href="/index-3">Home page v3</Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="mega-li-small has-children">
                       <Link href="#">Vehicles</Link>
